@@ -1,7 +1,9 @@
 numpy==2.3.4
 pandas==2.3.3
 scikit-learn>=1.4.0
-matplotlib==3.8.0
-seaborn==0.12.2
+# allow pip to select a matplotlib wheel compatible with numpy 2.x
+matplotlib>=3.8.0
+# allow pip to select a seaborn compatible release
+seaborn>=0.12.2
 streamlit==1.51.0
 joblib==1.3.2
